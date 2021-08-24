@@ -1,0 +1,70 @@
+body {
+	position:center;
+    margin: 0;
+    padding: 0;
+}
+
+.produk {
+	position:center;
+	position:center;
+    font-family: "Trebuchet MS";
+}
+
+.produk h1 {
+	position:center;
+    text-transform: uppercase;
+    color: #005a61;
+}
+
+.produk table {
+	
+	position:center;
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 80%;
+    margin: 10px auto 10px auto;
+}
+
+.produk table thead th {
+	position:center;
+    background-color: #DDEFEF;
+    border: solid 1px #DDEEEE;
+    color: #336B6B;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.produk table tbody td {
+	position:center;
+    border: solid 1px #DDEEEE;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.produk a {
+	position:center;
+    background-color: #005a61;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.action {
+    width: 160px;
+}
+
+
+
+.gaji {
+    width: 120px;
+}
+
+.tgl_lahir {
+    width: 100px;
+}

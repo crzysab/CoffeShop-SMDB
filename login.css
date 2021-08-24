@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layer1 {
+    position: absolute;
+    background-color: white;
+    width: 60%;
+    height: 850px;
+    top: 0;
+    margin-left: 530px;
+    box-shadow: 6px 8px 4px rgba(0, 0, 0, 0.05);
+}
+
+.banner1 {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.banner1 h1 {
+    margin-top: 40px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    color: 303030;
+    font-size: 49px;
+    margin: 0 50px 0 100px;
+
+}
+
+.banner1 p {
+    font-family: Poppins;
+    left: 100px;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0 200px 0 100px;
+    line-height: 30px;
+}
+
+
+
+.line {
+    position: relative;
+    border: none;
+    height: 1.5px;
+    background-color: #e1e1e1;
+    width: 65%;
+    right: 60px;
+}
+
+.form {
+    font-size: 18px;
+    margin-left: 140px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    color: 303030;
+}
+
+.form label {
+    font-weight: 400;
+}
+
+.form [type="text"],
+.form [type="password"] {
+    font-size: 16px;
+    padding-left: 10px;
+    width: 70%;
+    height: 37px;
+    border: 1px solid #707070;
+    border-radius: 8px;
+}
+
+.form [type="submit"] {
+    font-size: 18px;
+    padding: 5px 7%;
+    background: #be7656;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 25.5px;
+    border: 0;
+    cursor: pointer;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #303030;
+}
+
+.form [type="submit"]:hover,
+.form [type="submit"]:active {
+    background: #efc3a4
+}
